@@ -13,6 +13,4 @@ def get_row_col(s):
     return row, column
 
 
-
-
 print(get_row_col("A3"))
