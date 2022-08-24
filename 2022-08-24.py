@@ -8,4 +8,4 @@ def param_count(*args):
     return len(args)
 
 
-print(param_count(1,4,5))
+print(param_count(1, 4, 5))
