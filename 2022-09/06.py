@@ -13,9 +13,9 @@ items = {
 def find_it(items, name):
     name_title = name.title()
     if name in items:
-        return "{} is here!".format(name_title)
-    else:
         return "{} is gone...".format(name_title)
+    else:
+        return "{} is here!".format(name_title)
 
 
 print(find_it(items, 'timmy4'))
