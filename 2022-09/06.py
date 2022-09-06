@@ -3,7 +3,7 @@ Created on : 06/09/22 3:44 PM
 @author : ds  
 """
 
-items = {
+lost_items = {
   "tv": 30,
   "timmy": 20,
   "stereo": 50,
@@ -18,7 +18,7 @@ def find_it(items, name):
         return "{} is here!".format(name_title)
 
 
-print(find_it(items, 'timmy4'))
+print(find_it(lost_items, 'timmy4'))
 
 
 

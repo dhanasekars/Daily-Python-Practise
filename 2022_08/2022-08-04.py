@@ -6,7 +6,7 @@ Created on : 04/08/22 6:06 PM
 
 def online_count(statuses):
     count = 0
-    for key,value in statuses.items():
+    for key,value in statuses.lost_items():
         if value == 'online':
             count = count + 1
     return count
