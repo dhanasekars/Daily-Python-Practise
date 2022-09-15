@@ -9,7 +9,7 @@ test_data = '208.67.222.222'
 
 def get_domain(ip_address):
     try:
-        return socket.gethostbyaddr(ip_address)[0]
+        return socket.getfqdn(socket.gethostbyaddr(ip_address)[0])
     except Exception:
         pass
 
