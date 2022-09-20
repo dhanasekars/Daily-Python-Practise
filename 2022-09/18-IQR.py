@@ -3,8 +3,7 @@ Created on : 19/09/22 2:51 PM
 @author : ds  
 """
 
-test_data_odd = [-3.1, -3.8, -14, 23, 0]
-test_data_even = [1, 2, 3, 4, 5]
+test_data = [81, 82, 83, 83, 84, 84, 84, 85]
 
 
 def iqr(lst):
@@ -27,4 +26,4 @@ def iqr(lst):
     return Q3 - Q1
 
 
-print(iqr(test_data_even))
+print(iqr(test_data))

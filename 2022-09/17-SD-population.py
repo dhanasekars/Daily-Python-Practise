@@ -4,7 +4,7 @@ Created on : 18/09/22 7:24 PM
 """
 import math
 
-test_data = [13,2,1,5,2,7]
+test_data = [8, 4, 14, 16, 8]
 
 # sorted = [1,2,3,4,5]
 
@@ -18,7 +18,7 @@ def sd(lst):
     SD = math.sqrt(variance)
     sample_SD = math.sqrt(sample_variance)
     # return round(SD, 2)
-    return mean, SD, sample_SD
+    return mean, SD
 
 
 print(sd(test_data))
