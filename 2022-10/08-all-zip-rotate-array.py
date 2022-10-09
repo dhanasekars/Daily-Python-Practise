@@ -19,7 +19,7 @@ def can_see_stage(seats):
     """
     Create a function that determines whether each seat can "see" the front-stage.
     A number can "see" the front-stage if it is strictly greater than the number before it.
-    :param seats: List of lists with seat numbers
+    :param: seats List of lists with seat numbers
     :return: Boolean
     """
     rotated = list(zip(*seats[::-1]))
