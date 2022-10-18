@@ -17,6 +17,7 @@ def pluralize(lst):
     # Counter is a container that will hold the count of each of the elements present in the container.
     # The counter is a sub-class available inside the dictionary class.
     # https://docs.python.org/3/library/collections.html
+    # Another way to solve is using count method lst.count(i)
     return {k if v == 1 else k+'s' for k, v in Counter(lst).items()}
 
 
