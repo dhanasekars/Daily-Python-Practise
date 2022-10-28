@@ -24,6 +24,7 @@ def formula(txt):
 
 # Above is first approach
 # The below one is after reading about eval()
+# Eval - executes expressions
 
 
 def eval_formula(txt):
