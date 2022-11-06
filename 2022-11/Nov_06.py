@@ -29,4 +29,6 @@ def split(txt):
         return output.strip(',').split(',')
     else:
         return []
+
+
 print(split(data))
