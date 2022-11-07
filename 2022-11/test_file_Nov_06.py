@@ -3,7 +3,7 @@ Created on : 06/11/22 5:34 AM
 @author : ds  
 """
 import unittest
-from Nov_06 import split
+from Nov_06_smart_solution import split
 
 
 class TestSplit(unittest.TestCase):

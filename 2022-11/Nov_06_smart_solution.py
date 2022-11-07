@@ -32,3 +32,8 @@ def split(txt):
 
 
 print(split(data))
+
+# idea: make a score variable where '(' is +1 and ')' is -1.
+# When score reaches 0 it means you have found your parenthesis cluster.
+# someone posted the above idea that helped me to solve the problem
+# similar approach in Nov_07_2022 as well
