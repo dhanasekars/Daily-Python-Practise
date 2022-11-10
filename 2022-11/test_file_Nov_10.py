@@ -4,7 +4,7 @@ Created on : 10/11/22 5:54 AM
 """
 
 import unittest
-from Nov_10 import player
+from Nov_10_class import player
 
 
 class TestClass(unittest.TestCase):
