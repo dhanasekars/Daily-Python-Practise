@@ -23,3 +23,4 @@ print(giancarlo.salary)
 # using setattr
 # for k, v in kwargs.items():
 #     setattr(self, k, v)
+
