@@ -23,16 +23,13 @@ class Calculator:
     #     self.n2 = None
     #     self.n1 = None
 
+    @staticmethod
+    def add(n1, n2):
+        return n1 + n2
 
-    def add(self, n1, n2):
-        self.n1 = n1
-        self.n2 = n2
-        return self.n1 + self.n2
-
-    def subtract(self, n1, n2):
-        self.n1 = n1
-        self.n2 = n2
-        return self.n1 - self.n2
+    @staticmethod
+    def subtract(n1, n2):
+        return n1 - n2
 
     def multiply(self, n1, n2):
         self.n1 = n1
