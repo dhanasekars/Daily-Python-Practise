@@ -1,4 +1,6 @@
 #OS related
+.idea/
+.gitignore
 **/.DS_Store
 .DS_Store?
 ._*
@@ -10,6 +12,3 @@ Thumbs.db
 *.iws
 workspace.xml
 tasks.xml
-.gitignore
-.idea
-
