@@ -1,5 +1,5 @@
 .trash
-
+.obsidian
 #OS related
 **/.DS_Store
 .DS_Store?
@@ -11,4 +11,3 @@ Thumbs.db
 *.zip
 channel/
 .idea/
-.gitignore
