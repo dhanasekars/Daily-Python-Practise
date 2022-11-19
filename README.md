@@ -9,15 +9,15 @@ The focus for Aug 2022 was to solve basic logical problems.
 
 ## Sep 2022
 
-From basic logical solving I increase complexity level a bit higher
+From basic logical problems I increased complexity level.
 
 ## Oct 2022
 
-Focus in Oct 2022 was to attempt pythonic solutions like list comprehensions etc.,
+Focus for Oct 2022 was pythonic solutions like list comprehensions etc.,
 To have detailed comments. Apply PEP8
 ## Nov 2022
 
-Started writing unit tests. On Nov 10th got an idea of using OOP along with unit tests.
+Have unit tests. On Nov 10th got an idea of using OOP along with unit tests.
 
 ## Plan for Dec 2022
 
