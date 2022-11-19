@@ -7,9 +7,9 @@
 ehthumbs.db
 Thumbs.db
 *.zip
-channel/
-.idea
 *.iws
 workspace.xml
 tasks.xml
+.gitignore
+.idea
 
