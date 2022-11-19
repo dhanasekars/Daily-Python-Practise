@@ -1,6 +1,5 @@
 #OS related
-.idea/
-.gitignore
+.idea/**/
 **/.DS_Store
 .DS_Store?
 ._*
