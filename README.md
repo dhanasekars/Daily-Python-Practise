@@ -17,7 +17,7 @@ Focus in Oct 2022 was to attempt pythonic solutions like list comprehensions etc
 To have detailed comments. Apply PEP8
 ## Nov 2022
 
-Started writing unit tests. On Nov 10th got an idea of writting OOP along with unit tests.
+Started writing unit tests. On Nov 10th got an idea of using OOP along with unit tests.
 
 ## Plan for Dec 2022
 
