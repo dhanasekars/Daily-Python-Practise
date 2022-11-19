@@ -42,7 +42,7 @@ class Cell:
         return '*' if self.mine else '_'
 
 
-game = Game(40, 56, 79)
+game = Game()
 print(game.rows)
 print(game.columns)
 print(game.mines)
