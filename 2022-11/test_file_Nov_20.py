@@ -18,14 +18,11 @@ class TestPagination(unittest.TestCase):
         p3 = Pagination(alphabetList, 7)
         self.assertEqual(p3.getTotalPages(), 4)
 
-    def test_goToPage(self):
+    def test_createPages(self):
         alphabetList = list("abcdefghijklmnopqrstuvwxy")
-        p1 = Pagination(alphabetList, 5)
-        self.assertEqual(p1.goToPage(1), ['a', 'b', 'c', 'd', 'e'])
-        self.assertEqual(p1.goToPage(5), ['y'])
-        self.assertEqual(p1.goToPage(10), ['y'])
-        self.assertEqual(p1.goToPage(-5), ['a', 'b', 'c', 'd', 'e'])
-
-
-
-
+        p1 = Pagination(alphabetList, 25)
+        self.assertEqual(p1.createPages(), [['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y']])
+        alphabetList = list("abcde")
+        p2 = Pagination(alphabetList, 1)
+        self.assertEqual(p2.createPages(), [['a'], ['b'], ['c'], ['d'], ['e']]
+)

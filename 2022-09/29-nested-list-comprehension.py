@@ -13,3 +13,6 @@ def is_disarium(n):
 
 
 print(is_disarium(test_data))
+
+
+

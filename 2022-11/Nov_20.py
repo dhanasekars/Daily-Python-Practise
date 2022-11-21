@@ -2,6 +2,7 @@
 Created on : 20/11/22 5:34 AM
 @author : ds  
 """
+from typing import Union, List, Any
 
 
 class Pagination:
@@ -12,8 +13,10 @@ class Pagination:
         self.items = items
         self.pageSize = pageSize
         self.totalPages = 0
-        self.currentPage = 0
+        self.currentPage = 1
         self.total = 0
+        self.getTotalPages()
+        self.pages = self.createPages()
 
     def getItems(self):
         return self.items
@@ -24,8 +27,6 @@ class Pagination:
     def getCurrentPage(self):
         pass
 
-    # This is for Nov 20
-
     def getTotalPages(self):
         if len(self.items) % self.pageSize:
             self.total = len(self.items) // self.pageSize + 1
@@ -33,14 +34,15 @@ class Pagination:
             self.total = len(self.items) // self.pageSize
         return self.total
 
-    # This is for Nov 21
+    def createPages(self):
+        pages = [self.items[i * self.pageSize:(i + 1) * self.pageSize]
+                 for i in range((len(self.items) + self.pageSize - 1) // self.pageSize)]
+        return pages
 
-    def goToPage(self, pageNo=1):
-        pass
+
+# alphabetList = list("abcdefghijklmnopqrstuvwxy")
+# p1 = Pagination(alphabetList, 4)
+# print(p1.createPages())
 
 
-alphabetList = list("abcdefghijklmnopqrstuvwxyz")
-p = Pagination(alphabetList, 4)
-
-print(p.goToPage(3))
 

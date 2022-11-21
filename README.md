@@ -22,6 +22,10 @@ Have unit tests. On Nov 10th got an idea of using OOP along with unit tests.
 ## Plan for Dec 2022
 
 Include exceptional handling.
+Identified so far
+- Nov 20
+- Nov 21
+
 
 ## Jan 2023 
 Yet to decide
