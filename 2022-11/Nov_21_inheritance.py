@@ -17,7 +17,7 @@ class ExtendPagination(Pagination):
         return self.currentPage
 
     def getVisibleItems(self):
-        return self.pages[self.currentPage-1]
+        return self.pages[self.currentPage - 1]
 
     def prevPage(self):
         if self.currentPage != 1:
@@ -31,9 +31,9 @@ class ExtendPagination(Pagination):
 alphabetList = list("abcdefghijklmnopqrstuvwxy")
 ePagination = ExtendPagination(alphabetList, 4)
 
-
-
-### Nov 22 : Make double inheritance
+# Nov 22 : Make double inheritance
 # Add gotoPage
-# Add Firstpage
-# Add lastpage
+# Add First-page
+# Add last-page
+
+# Nov 23 : Tests for all methods
