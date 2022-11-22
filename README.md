@@ -3,7 +3,8 @@
 As part of my moonshot (inspired by the book Think like a Rocket Scientist) 
 started writing python code for around 30 minutes every day starting Aug 2022.
 
-### Note: This is like a sportsperson or athlete doing a warm-up, not an intense training session. So don't expect very complex problems in daily challenges. You might even find a lot of similar problems solved again and again.
+_Note: This is like a sportsperson or athlete doing a warm-up, not an intense training session. 
+So don't expect very complex problems in daily challenges. You might even find a lot of similar problems solved again and again._
 
 ## Aug 2022
 
