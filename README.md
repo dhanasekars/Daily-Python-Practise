@@ -28,8 +28,9 @@ Include exceptional handling.
 Identified so far
 - Nov 20
 - Nov 21
+- Nov 23
 
 
 ## Jan 2023 
-Yet to decide
+- Create design, flowchart before coding
 

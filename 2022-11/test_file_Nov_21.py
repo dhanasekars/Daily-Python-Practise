@@ -18,7 +18,11 @@ class TestExtendPagination(unittest.TestCase):
         self.assertEqual(p1.goToPage(-7), 1)
         self.assertEqual(p1.goToPage(6), 5)
 
-
-
-
+    def test_getVisibleItems(self):
+        alphabetList = list("abcdefghijklmnopqrstuvwxyz")
+        p1 = ExtendPagination(alphabetList, 4)
+        self.assertEqual(p1.getVisibleItems(), ['a', 'b', 'c', 'd'])
+        alphabetList = list("a")
+        p1 = ExtendPagination(alphabetList, 25)
+        self.assertEqual(p1.getVisibleItems(), ['a'])
 

@@ -30,6 +30,7 @@ class ExtendPagination(Pagination):
 
 alphabetList = list("abcdefghijklmnopqrstuvwxy")
 ePagination = ExtendPagination(alphabetList, 4)
+print(ePagination.getVisibleItems())
 
 # Nov 22 : Make double inheritance
 # Add gotoPage
