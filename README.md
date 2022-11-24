@@ -7,9 +7,9 @@ _Objective 1: This is like a sportsperson or athlete doing a warm-up, not an int
 So don't expect very complex problems in daily challenges. You might even find a lot of similar problems solved again and again._
 
 _Objective 2 : Once the 30 minutes time block is over, I get up and walk away from it. 
-The objective is not solving challenge but coding for 30 minutes everyday_
+The objective is not solving challenge but coding for 30 minutes every day._
 
-_Objective 3 : This session is not learn a new topic but to practise known areas. 
+_Objective 3 : This session is not to learn a new topic but to practise known areas. 
 In case a challenge needs new learning, I attempt to learn in 30 minutes. If not, I park it for next day._
 
 ## Aug 2022
