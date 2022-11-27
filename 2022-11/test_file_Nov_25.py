@@ -9,16 +9,16 @@ import unittest
 class test_Testpaper(unittest.TestCase):
 
     def test_subject(self):
-        paper1 = Testpaper("Maths", ["1A", "2C", "3D", "4A", "5A"], "60%")
+        paper1 = Testpaper("Maths", ["1A", "2C", "3D", "4A", "5A"], "60.0%")
         self.assertEqual(paper1.subject, "Maths")
 
     def test_markscheme(self):
-        paper1 = Testpaper("Maths", ["1A", "2C", "3D", "4A", "5A"], "60%")
+        paper1 = Testpaper("Maths", ["1A", "2C", "3D", "4A", "5A"], "60.0%")
         self.assertEqual(paper1.markscheme, ["1A", "2C", "3D", "4A", "5A"])
 
     def test_pass_mark(self):
-        paper1 = Testpaper("Maths", ["1A", "2C", "3D", "4A", "5A"], "60%")
-        self.assertEqual(paper1.pass_mark, "60%")
+        paper1 = Testpaper("Maths", ["1A", "2C", "3D", "4A", "5A"], "60.0%")
+        self.assertEqual(paper1.pass_mark, "60.0%")
 
     def test_no_tests_taken(self):
         student1 = Student()
@@ -35,4 +35,4 @@ class test_Testpaper(unittest.TestCase):
         self.assertEqual(student1.tests_taken, {"Maths": "Passed! (80%)"})
         student2.take_test(paper2, ["1C", "2D", "3A", "4C"])
         student2.take_test(paper3, ["1A", "2C", "3A", "4C", "5D", "6C", "7B"])
-        self.assertEqual(student2.tests_taken, {"Chemistry": "Failed! (25%)", "Computing": "Failed! (42%)"})
+        self.assertEqual(student2.tests_taken, {"Chemistry": "Failed! (25%)", "Computing": "Failed! (43%)"})
