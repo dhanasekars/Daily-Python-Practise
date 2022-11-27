@@ -22,7 +22,7 @@ def sock_merchant(lst):
     # Summing the mod of the count gives total pair
     # This is done using list comprehension
 
-    return sum([lst.count(i) // 2 for i in set(lst)])
+    return sum([lst.order_number(i) // 2 for i in set(lst)])
 
 
 print(sock_merchant(test_data))

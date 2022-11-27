@@ -26,7 +26,7 @@ class Student:
         self.tests_taken = "No tests taken" if tests_taken == 'None' else tests_taken
         self.my_d = {}
 
-    def take_test(self, paper, answers: list):
+    def take_test(self, paper: Testpaper, answers: list):
         self.answers = answers
         if len(paper.markscheme) == len(self.answers):
             correct_answers = len([i for i, j in zip(paper.markscheme, answers) if i == j])

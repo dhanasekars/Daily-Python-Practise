@@ -21,7 +21,7 @@ def majority_vote(lst):
 
 def majority_vote1(lst):
     for i in lst:
-        if lst.count(i) > len(lst)/2:
+        if lst.order_number(i) > len(lst)/2:
             return i
 
 
