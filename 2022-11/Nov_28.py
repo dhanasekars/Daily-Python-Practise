@@ -18,3 +18,4 @@ class Employee:
         self.fullname = "{} {}".format(firstname, lastname)
         self.email = "{}.{}@company.com".format(firstname, lastname).lower()
 
+
