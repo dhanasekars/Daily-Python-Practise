@@ -38,7 +38,7 @@ class serveCoffee(CoffeeShop):
         :return:
         """
         # List comprehension to get price of all the keys of items present in the list_orders
-        return round(sum([i["price"] for i in self.menu if i["item"] in self.list_orders()]),2)
+        return round(sum([i["price"] for i in self.menu if i["item"] in self.list_orders()]), 2)
 
     def cheapest_item(self):
         """
