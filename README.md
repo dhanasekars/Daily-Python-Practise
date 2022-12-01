@@ -30,6 +30,12 @@ Have unit tests. On Nov 10 got the idea of using OOP along with unit tests.
 
 ## Plan for Dec 2022
 
+continue with OOP
+
+
+## Jan 2023 
+
+
 Include exceptional handling.
 Identified so far
 - Nov 20
@@ -40,8 +46,3 @@ Identified so far
 - Nov 27
 - Nov 28
 - Nov 29
-
-
-## Jan 2023 
-
-
