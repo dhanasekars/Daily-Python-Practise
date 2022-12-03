@@ -3,6 +3,7 @@ Created on : 02/12/22 4:55 AM
 @author : ds  
 """
 
+# https://edabit.com/challenge/cPxexgGxmCMi4kas8
 
 class FourVector:
     """
@@ -21,8 +22,3 @@ class FourVector:
     def __str__(self):
         result = [round(item, 3) for item in self.vectors]
         return '{}'.format(str(tuple(result)))
-
-    # def __add__(self, other):
-    #     output = [self[i] + other[i] for i in range(3)]
-    #     return output
-
