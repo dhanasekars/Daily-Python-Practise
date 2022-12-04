@@ -39,12 +39,3 @@ class Player:
 
     def get_hpPerc(self):
         return round(self.__hp / self.__maxHp * 100, 2)
-
-
-
-
-
-
-
-
-
