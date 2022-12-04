@@ -56,8 +56,3 @@ class test_Player(unittest.TestCase):
         self.assertEqual(alice.get_hpPerc(), 99.10)
         bob.set_hp(1.5)
         self.assertEqual(bob.get_hpPerc(), 0.15)
-
-
-
-
-
