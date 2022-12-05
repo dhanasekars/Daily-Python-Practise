@@ -16,6 +16,7 @@ class PlayerSkills(Player):
     def learnSkill(self, skills_name, stats: dict):
         self.skills_name = skills_name
         self.stats = stats
+        return
 
 
 alice = PlayerSkills('Alice', 600, 500, 300)
@@ -24,3 +25,4 @@ alice.learnSkill("fireball",
                          {"damage": 23, "penetration": 1.2,
                           "heal": 5, "cost": 15, "desc": "a firey magical attack"})
 
+alice.fireball(bob)
