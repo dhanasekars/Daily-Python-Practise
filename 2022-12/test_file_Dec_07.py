@@ -11,7 +11,7 @@ class testPerson(unittest.TestCase):
     def test_initiation(self):
         p1 = Person("Sam", ["ice cream"], ["carrots"])
         self.assertEqual(p1.name, "Sam")
-        self.assertEqual(p1.likes,["ice cream"])
+        self.assertEqual(p1.likes, ["ice cream"])
         self.assertEqual(p1.dislikes, ["carrots"])
 
     def test_taste(self):
