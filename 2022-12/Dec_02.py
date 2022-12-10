@@ -11,14 +11,14 @@ class FourVector:
     """
 
     def __init__(self, vectors=None):
-        self.vectors = [0.0, 0.0, 0.0, 0.0] if vectors is None else vectors
-
-    def SetComponents(self, c):
-        self.vectors = c
+        self.components = vectors if vectors else [0.0, 0.0, 0.0, 0.0]
 
     def GetComponents(self):
-        return self.vectors
+        return self.components
+
+    def SetComponents(self, c):
+        self.components = c
 
     def __str__(self):
-        result = [round(item, 3) for item in self.vectors]
+        result = [round(item, 3) for item in self.components]
         return '{}'.format(str(tuple(result)))
