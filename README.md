@@ -28,10 +28,13 @@ To have detailed comments. Apply PEP8
 
 Have unit tests. On Nov 10 got the idea of using OOP along with unit tests.
 
-## Plan for Dec 2022
+## Dec 2022
 
 continue with OOP
 
+### Skipped days
+
+1. Dec 12 to Dec 18
 
 ## Jan 2023 
 

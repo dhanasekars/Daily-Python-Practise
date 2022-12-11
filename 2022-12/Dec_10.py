@@ -24,3 +24,7 @@ class FourVectors2(FourVectorOperators):
     def GetLength(self):
         return (abs(self * self))**0.5
 
+    def GetCausalStructure(self):
+        p = self * self
+        return "timelike" if p > 0 else ("spacelike" if p < 0 else "lightlike")
+
