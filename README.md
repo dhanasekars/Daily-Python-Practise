@@ -34,7 +34,7 @@ continue with OOP
 
 ### Skipped days
 
-1. Dec 12 to Dec 18
+1. Dec 14 to Dec 18
 
 ## Jan 2023 
 
