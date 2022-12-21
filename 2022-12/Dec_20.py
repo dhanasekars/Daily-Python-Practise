@@ -8,7 +8,6 @@ https://edabit.com/challenge/YA5sLYuTzQpWLF8xP
 class CleanUp:
     def __init__(self, lst):
         self.lst = lst
-        self.even_list = None
 
     def clean_up_list(self):
         even_list = [i for i in self.lst if not i % 2]
