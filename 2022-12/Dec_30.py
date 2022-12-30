@@ -9,13 +9,13 @@ from urllib import request
 
 url = "https://www.dhanasekars.com"
 
-# req = urllib.request.Request(url=url, headers={'User-Agent': 'Mozilla/5.0'})
-# resp = urllib.request.urlopen(req)
-# data = resp.read()
-# html = data.decode("UTF-8")
-# print(resp.code)
-# print(len(data))
-# # print(html)
+req = urllib.request.Request(url=url, headers={'User-Agent': 'Mozilla/5.0'})
+resp = urllib.request.urlopen(req)
+data = resp.read()
+html = data.decode("UTF-8")
+print(resp.code)
+print(len(data))
+# print(html)
 
 
 # using parse module
