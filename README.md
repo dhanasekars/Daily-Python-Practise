@@ -38,7 +38,6 @@ continue with OOP
 
 ## Jan 2023 
 
-
 Include exceptional handling.
 Identified so far
 - Nov 20
