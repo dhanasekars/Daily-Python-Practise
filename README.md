@@ -35,8 +35,12 @@ continue with OOP
 ### Skipped days
 
 1. Dec 14 to Dec 18
+2. Dec 31st
 
 ## Jan 2023 
+
+### Skipped days
+1. Jan 01
 
 Include exceptional handling.
 Identified so far
