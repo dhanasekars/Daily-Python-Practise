@@ -1,6 +1,7 @@
 """ 
 Created on : 04/01/23 3:13 PM
-@author : ds  
+@author : ds
+https://www.hackerrank.com/challenges/words-score/problem?isFullScreen=true
 """
 
 
@@ -19,9 +20,10 @@ def score_words(words):
                 score += 2
             else:
                 score += 1
-            return score
         else:
-            return 0
+            score = 0
+    return score
+
 
 
 
