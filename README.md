@@ -42,7 +42,7 @@ continue with OOP
 ### Skipped days
 1. Jan 01
 
-Include exceptional handling.
+Handle exceptions
 Identified so far
 - Nov 20
 - Nov 21
