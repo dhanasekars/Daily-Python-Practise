@@ -26,30 +26,34 @@ class OddStream(object):
         return to_return
 
 
-"""
-Buggy code
+# Buggy code
 def print_from_stream(n, stream=EvenStream()):
     for _ in range(n):
         print(stream.get_next())
-"""
-
-### Solution
-### Reason --> the default argument is evaluated only once when the function is defined.
-# https://docs.python-guide.org/writing/gotchas/
 
 
-def print_from_stream(n, stream=None):
-    if stream is None:
-        stream = EvenStream()
-    for _ in range(n):
-        print(stream.get_next())
-
-# Alternative approach is to init the stream every time
-"""
-def print_from_stream(n, stream=EvenStream()):
-    stream.__init__()
-    for _ in range(n):
-        print(stream.get_next())
-"""
+# ### Solution
+# ### Reason --> the default argument is evaluated only once when the function is defined.
+# # https://docs.python-guide.org/writing/gotchas/
+#
+#
+# def print_from_stream(n, stream=None):
+#     if stream is None:
+#         stream = EvenStream()
+#     for _ in range(n):
+#         print(stream.get_next())
+#
+# # Alternative approach is to init the stream every time
+# """
+# def print_from_stream(n, stream=EvenStream()):
+#     stream.__init__()
+#     for _ in range(n):
+#         print(stream.get_next())
+# """
 
 print_from_stream(3)
+print_from_stream(5)
+
+
+
+

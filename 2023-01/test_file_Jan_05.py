@@ -11,3 +11,4 @@ class TestStream(unittest.TestCase):
 
     def test_odd_stream(self):
         self.assertEqual(print_from_stream(2, OddStream()), (1, 3))
+
