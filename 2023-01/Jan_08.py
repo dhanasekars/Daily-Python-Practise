@@ -5,6 +5,12 @@ https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=
 """
 
 def compareTriplets(a, b):
+    """
+    It is a function that compares two lists of three elements and give one point to the highest element, zero if equal
+    :param a: A triplet of integers
+    :param b: A triplet of integers
+    :return: score of Alice and Bob
+    """
     alice = 0
     bob = 0
     for i in range(len(a)):
