@@ -25,3 +25,7 @@ class test_staircase(unittest.TestCase):
         output = capturedOutput.getvalue().strip()
         self.assertEqual(output, '#\n    ##\n   ###\n  ####\n #####\n######')
 
+    def test_staircase_2(self):
+        with self.assertLogs() as cm:
+            staircase(2)
+            self.assertEqual(cm.output, ['INFO:root: #', 'INFO:root: ##'])
