@@ -41,14 +41,7 @@ continue with OOP
 
 ### Skipped days
 1. Jan 01
+2. Jan 13
+3. Jan 14
 
-Handle exceptions
-Identified so far
-- Nov 20
-- Nov 21
-- Nov 23
-- Nov 24
-- Nov 26
-- Nov 27
-- Nov 28
-- Nov 29
+Handle exceptions & trying Copilot
