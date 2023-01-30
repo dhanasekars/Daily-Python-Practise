@@ -46,6 +46,6 @@ continue with OOP
 
 Handle exceptions & trying Copilot
 
-## Feb 2023
+## Feb 2023 Pandas
 
 https://python.dunderdata.com/user/dhanasekars/tree
