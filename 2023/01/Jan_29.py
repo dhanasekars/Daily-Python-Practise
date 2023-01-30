@@ -6,7 +6,6 @@ Created on : 29/01/23 4:48 AM
 
 def sorting_list(*lists):
     """
-
     :param: lists: a tuple of lists of integers
     :return: list
     """
