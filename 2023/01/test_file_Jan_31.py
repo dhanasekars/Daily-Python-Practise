@@ -4,7 +4,7 @@ Created on : 31/01/23 4:50 AM
 """
 
 import unittest
-from Jan_31 import stringcap
+from Jan_31 import stringcap, common_char
 
 class TestJan31(unittest.TestCase):
     def testupper(self):
@@ -14,3 +14,7 @@ class TestJan31(unittest.TestCase):
         self.assertFalse(stringcap("hello world!"))
         self.assertEqual(stringcap(""), "Empty String")
         self.assertEqual(stringcap(1), "List contains non-numeric values.")
+
+    def testcommonchar(self):
+        self.assertEqual(common_char("phone", "home"), {'e', 'h', 'o'})
+        self.assertEqual(common_char("abc", "def"), set())
