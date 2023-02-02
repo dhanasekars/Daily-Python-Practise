@@ -49,3 +49,7 @@ Handle exceptions & trying Copilot
 ## Feb 2023 Pandas
 
 https://python.dunderdata.com/user/dhanasekars/tree
+
+## Mar 2023
+
+http://www.pythonchallenge.com/ For the crazy ones  :-) 
