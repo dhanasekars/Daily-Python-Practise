@@ -11,5 +11,3 @@ def feb_29_count(df):
     :return: integer
     """
     return df.loc[(df.hire_date.dt.day == 29) & (df.hire_date.dt.month == 2)].shape[0]
-
-
