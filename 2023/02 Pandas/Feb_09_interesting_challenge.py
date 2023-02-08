@@ -25,3 +25,6 @@ def sex_ratio(df):
     df = round(s.groupby(['dept', 'sex']).sum() / s.groupby('dept').sum() * 100, 1).reset_index()
     # return the pivot table, using pandas pivot method
     return df.pivot(index='dept', columns='sex', values='counts')
+
+# Better and interesting solution using pandas crosstab
+# pd.crosstab(index=df['dept'],columns = df['sex'], normalize='index').round(3)*100
