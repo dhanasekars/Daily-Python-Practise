@@ -1,4 +1,4 @@
-# DailyChallenge
+# Daily Python Exercises 
 
 As part of my moonshot (inspired by the book Think like a Rocket Scientist) 
 started writing python code for around 30 minutes every day starting Aug 2022.
