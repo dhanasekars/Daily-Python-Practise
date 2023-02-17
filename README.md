@@ -12,23 +12,23 @@ The objective is not solving challenge but coding for 30 minutes every day._
 _Objective 3 : This session is not to learn a new topic but to practise known areas. 
 In case a challenge needs new learning, I attempt to learn in 30 minutes. If not, I park it for next day._
 
-## Aug 2022
+## Aug 2022 [ 31 days ]
 
 The focus for Aug 2022 was to solve fundamental logical problems.
 
-## Sep 2022
+## Sep 2022 [ 30 days ]
 
 From fundamental logical problems, I increased the complexity level.
 
-## Oct 2022
+## Oct 2022 [ 31 days ]
 
 The focus for Oct 2022 was pythonic solutions like list comprehensions etc.,
 To have detailed comments. Apply PEP8
-## Nov 2022
+## Nov 2022 [ 30 days ] 
 
 Have unit tests. On Nov 10 got the idea of using OOP along with unit tests.
 
-## Dec 2022
+## Dec 2022 [ 25 days]
 
 continue with OOP
 
@@ -37,7 +37,9 @@ continue with OOP
 1. Dec 14 to Dec 18
 2. Dec 31st
 
-## Jan 2023 
+Total days in 2022 - 147 days
+
+## Jan 2023 [ 28 days ]
 
 ### Skipped days
 1. Jan 01
