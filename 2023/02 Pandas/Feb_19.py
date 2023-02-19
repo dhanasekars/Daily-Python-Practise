@@ -1,7 +1,8 @@
 """ 
-Created on : 18/02/23 4:58 AM
+Created on : 19/02/23 5:30 AM
 @author : ds  
 """
+
 # id	neighborhood	property_type	accommodates	bathrooms	bedrooms	price	security_deposit	cleaning_fee	rating	superhost	response_time	minimum_nights	maximum_nights	latitude	longitude
 # 0	3362	Shaw	Townhouse	16	3.5	4	433	500	250	95.0	0	within an hour	2	365	38.90982	-77.02016
 # 1	3663	Brightwood Park	Townhouse	4	3.5	4	154	0	50	97.0	0	NaN	3	30	38.95888	-77.02554
@@ -10,15 +11,15 @@ Created on : 18/02/23 4:58 AM
 # 4	3771	Columbia Heights	Other	2	1.0	1	88	0	0	NaN	0	NaN	1	1125	38.92760	-77.03926
 
 
-def neighborhood_stats(df):
+def total_cost(df):
     """
-    Calculate the total number of listings per neighborhood along with the "center" of each neighborhood.
-    The center is defined as the mean of the latitude and longitude for each listing in the neighborhood.
-    Return a DataFrame of the top 5 neighborhoods by count. Make sure to label the columns correctly.
-    Total count as 'num' and mean_latitude and mean_longitude
+    Calculate the total cost of each listing as the sum of the price, security deposit and cleaning fee.
+    Return a DataFrame of the cost columns plus the total for the first 10 rows.
     :param df:
     :return:
     """
-
-    return df.groupby('neighborhood').agg({'id': 'count', 'latitude': 'mean', 'longitude': 'mean'}).\
-        rename(columns={'id': 'num'}).nlargest(5, 'num')
+    new_df = df.head(10)
+    new_df['total'] = new_df.price + new_df.security_deposit + new_df.cleaning_fee
+    return new_df[['price', 'security_deposit', 'cleaning_fee', 'total']]
+    # copilot suggestion
+    # return df[['price', 'security_deposit', 'cleaning_fee']].sum(axis=1).head(10)
