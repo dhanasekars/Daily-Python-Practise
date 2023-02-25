@@ -19,4 +19,4 @@ def highest_hour(df):
     :param df:
     :return:
     """
-    [df.loc['2016-06', 'Temperature'].idxmax().hour for i in range(30)]
+    return df.loc['2016-06'].idxmax()
