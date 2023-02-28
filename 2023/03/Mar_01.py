@@ -16,8 +16,8 @@ import shutil
 from time import sleep
 def weekly_backup():
     """
-    I do a weekly backup of certain folder from my icloud to gDrive and dropbox.
-    Automate the backup process
+    I do a weekly backup of certain folders from my icloud to gDrive and dropbox.
+    Automate the backup process.
     :return:
     """
     os.makedirs(WEEKLY.weekly_backup_path+'/test')
