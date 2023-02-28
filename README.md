@@ -48,7 +48,7 @@ Total days in 2022 - 147 days
 
 Handle exceptions & trying Copilot
 
-## Feb 2023 Pandas
+## Feb 2023 Pandas [ 28 days ]
 
 https://python.dunderdata.com/user/dhanasekars/tree
 
