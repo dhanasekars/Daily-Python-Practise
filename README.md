@@ -52,6 +52,13 @@ Handle exceptions & trying Copilot
 
 https://python.dunderdata.com/user/dhanasekars/tree
 
-## Mar 2023
+
+## Mar 2023 - Automate the boring stuff
+
+Inspired from https://automatetheboringstuff.com
+
+Every day check in should be a usable/ workable incremental function.
+
+## April 2023
 
 http://www.pythonchallenge.com/ For the crazy ones  :-) 
