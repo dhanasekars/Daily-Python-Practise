@@ -41,6 +41,7 @@ Total days in 2022 - 147 days
 
 ## Jan 2023 [ 28 days ]
 
+[Jan 2023](https://github.com/dhanasekars/Daily-Python-Practise/tree/main/2023/01)
 ### Skipped days
 1. Jan 01
 2. Jan 13
@@ -49,11 +50,13 @@ Total days in 2022 - 147 days
 Handle exceptions & trying Copilot
 
 ## Feb 2023 Pandas [ 28 days ]
+[Feb 2023](https://github.com/dhanasekars/Daily-Python-Practise/tree/main/2023/02%20Pandas)
 
 https://python.dunderdata.com/user/dhanasekars/tree
 
 
-## Mar 2023 - Automate the boring stuff
+## Mar 2023 - Automate the boring stuff 
+[Mar 2023](https://github.com/dhanasekars/Daily-Python-Practise/tree/main/2023/03) 
 
 Inspired from https://automatetheboringstuff.com
 
