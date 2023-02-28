@@ -3,24 +3,31 @@ Created on : 01/03/23 4:23 AM
 @author : ds  
 """
 
-# TODO Day 1 - create config file to store folder paths
-# TODO Day 1 - Function should delete a folder and rename two folders inside a given folder path
-# TODO Day 2 - log details
+# DONE Day 1 - create config file to store folder paths
+# DONE Day 1 - Function should delete a folder
+# TODO Day 2 - Rename two folders inside a given folder path
+# TODO Day 2 - create logging
 # TODO Day 3 - Exception handling
-# TODO Day 4 - Pass dictionary of files to be deleted and renamed with location
+# TODO Day 4 - Pass dictionary of files to be deleted and renamed
 
-from pathlib import Path
+from config import WEEKLY
 import os
-
+import shutil
+from time import sleep
 def weekly_backup():
     """
     I do a weekly backup of certain folder from my icloud to gDrive and dropbox.
     Automate the backup process
     :return:
     """
-    os.makedirs('/Users/ds/Library/CloudStorage/GoogleDrive-email@dhanasekars.com'
-                '/My Drive/Focused Life Backup/test folder')
-    return Path.home()
+    os.makedirs(WEEKLY.weekly_backup_path+'/test')
+    print("a test folder is created")
+    sleep(3)
+    print('The folder is about to get deleted....')
+    shutil.rmtree(WEEKLY.folder_to_delete)
+    print('One less boring job for you...')
+    return None
 
-print(weekly_backup())
+weekly_backup()
+
 
