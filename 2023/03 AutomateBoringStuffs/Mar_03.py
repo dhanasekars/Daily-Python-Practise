@@ -1,5 +1,5 @@
 """
-Created on : 03/03/23 5:14 AM
+Created on : 03 AutomateBoringStuffs/03 AutomateBoringStuffs/23 5:14 AM
 @author : ds  
 """
 # DONE Day 3 - Exception handling
@@ -21,6 +21,7 @@ logger = logging.getLogger()
 def zip_folder(folder_path, file_name):
     """
     Zip a folder
+    :param file_name:
     :param folder_path:
     :return:
     """
@@ -29,5 +30,3 @@ def zip_folder(folder_path, file_name):
     logger.info("Zipping completed")
     return None
 
-
-zip_folder(WEEKLY.office_folder, 'Office')

@@ -1,11 +1,11 @@
 """ 
-Created on : 01/02/23 4:03 AM
+Created on : 01/02/23 4:03 AutomateBoringStuffs AM
 @author : ds  
 """
 
 """
     dept	  title	                                  hire_date	salary	    sex	    race
-0	Police	POLICE SERGEANT	                        2001-12-03	87545.38	Male	White
+0	Police	POLICE SERGEANT	                        2001-12-03 AutomateBoringStuffs	87545.38	Male	White
 1	Other	ASSISTANT CITY ATTORNEY II	            2010-11-15	82182.00	Male	Hispanic
 2	Houston Public Works	SENIOR SLUDGE PROCESSOR	2006-01-09	49275.00	Male	Black
 3	Police	SENIOR POLICE OFFICER	                1997-05-27	75942.10	Male	Hispanic
@@ -44,4 +44,4 @@ def select_sort(df):
     :param df:
     :return:
     """
-    return df[df['hire_date'] >= '2010-03-01'].sort_values(by='hire_date', kind='merge_sort')[:10]
+    return df[df['hire_date'] >= '2010-03 AutomateBoringStuffs-01'].sort_values(by='hire_date', kind='merge_sort')[:10]

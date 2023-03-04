@@ -1,5 +1,5 @@
 """ 
-Created on : 07/01/23 6:03 PM
+Created on : 07/01/23 6:03 AutomateBoringStuffs PM
 @author : ds
 https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
 """

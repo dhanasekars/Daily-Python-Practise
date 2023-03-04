@@ -1,5 +1,5 @@
 """ 
-Created on : 02/03/23 5:06 AM
+Created on : 02/03 AutomateBoringStuffs/23 5:06 AM
 @author : ds  
 """
 
@@ -47,4 +47,4 @@ def weekly_backup():
     logger.info("Weekly backup folder changes completed")
     return None
 
-weekly_backup()
+
