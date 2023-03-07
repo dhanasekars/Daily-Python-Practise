@@ -56,7 +56,7 @@ https://python.dunderdata.com/user/dhanasekars/tree
 
 
 ## Mar 2023 - Automate the boring stuff 
-[Mar 2023](https://github.com/dhanasekars/Daily-Python-Practise/tree/main/2023/03) 
+[Mar 2023](https://github.com/dhanasekars/Daily-Python-Practise/tree/main/2023/03%20AutomateBoringStuffs) 
 
 Inspired from https://automatetheboringstuff.com
 
