@@ -56,7 +56,7 @@ def main():
             append(spreadsheetId=GoogleDrive.SPREADSHEET_ID, range=GoogleDrive.RANGE,
                    valueInputOption='USER_ENTERED', body=BODY)
 
-        response = request.execute()
+        response = request.execute() # storing in response , later to use during debuggging in case of failure.
         # print(response)
 
     except Exception as e:
