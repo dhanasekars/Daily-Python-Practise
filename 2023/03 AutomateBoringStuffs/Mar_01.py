@@ -28,7 +28,6 @@ def weekly_backup():
     print('One less boring job for you...')
     return None
 
-weekly_backup()
 
 
 
