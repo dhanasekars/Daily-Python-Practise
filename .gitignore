@@ -17,3 +17,6 @@ config.py
 /token.json
 2023/03 AutomateBoringStuffs/client_secret.json
 2023/03 AutomateBoringStuffs/token.json
+__pycache__
+.idea
+.idea/
