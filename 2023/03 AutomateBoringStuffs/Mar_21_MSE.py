@@ -25,4 +25,4 @@ x = np.array([[0.1, 1.2, 2.4, 3.2, 4.1, 5.7, 6.5]]).transpose()
 y = np.array([1.7, 2.4, 3.5, 3.0, 6.1, 9.4, 8.2]).reshape(7, 1)
 
 
-print(mean_square_error(x, y,))
+print(mean_square_error(x, y))
