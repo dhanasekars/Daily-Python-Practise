@@ -4,6 +4,8 @@ Created on : 21/03/23 3:37 pm
 """
 
 import numpy as np
+from sklearn.linear_model import LinearRegression
+
 
 def mean_square_error(x, y):
     """
@@ -12,7 +14,6 @@ def mean_square_error(x, y):
     intercept - float
     coefficient - float
     """
-    from sklearn.linear_model import LinearRegression
     regr = LinearRegression()
     regr.fit(x, y)
     intercept = regr.intercept_[0]
