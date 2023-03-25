@@ -17,8 +17,12 @@ def test_dhanasekars(playwright):
 
     # Expect title to have Focused Life
     expect(page).to_have_title('Focused Life')
+
+    # Expect a subscribe option on the home page
     subscribe = page.get_by_role("button")
     expect(subscribe).to_have_text("Subscribe")
+
+    # Expect about link on the home page
     about = page.get_by_role("link", name="About")
     expect(about).to_have_text("About")
     expect(about).to_have_attribute("href", "/about")
