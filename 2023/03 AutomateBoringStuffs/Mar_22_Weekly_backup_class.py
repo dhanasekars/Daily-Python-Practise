@@ -7,6 +7,8 @@ from config import WEEKLY
 import os
 import shutil
 from datetime import datetime
+from emoji import emojize
+
 
 # Logging config
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
