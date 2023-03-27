@@ -64,3 +64,6 @@ beautifulsoup4~=4.12.0
 sklearn~=0.0.post1
 scikit-learn~=1.2.2
 playwright~=1.31.1
+emoji~=2.2.0
+django-emoji~=2.2.2
+PySimpleGUI~=4.60.4
