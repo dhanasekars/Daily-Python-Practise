@@ -5,7 +5,7 @@ Created on : 30/03/23 1:19 pm
 
 from sqlalchemy import Boolean, Column, Integer, String
 
-from .database import  Base
+from database import Base
 
 
 class URL(Base):
