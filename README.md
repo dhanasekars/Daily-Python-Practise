@@ -57,12 +57,13 @@ https://python.dunderdata.com/user/dhanasekars/tree
 `203 days of check in` 
 
 
-## Mar 2023 - Automate the boring stuff 
+## Mar 2023 - Automate the boring stuff [ 31 days]
 [Mar 2023](https://github.com/dhanasekars/Daily-Python-Practise/tree/main/2023/03%20AutomateBoringStuffs) 
 
 Inspired from https://automatetheboringstuff.com
 
 Every day check in should be a usable/ workable incremental function.
+`234 days of check in`
 
 ## April 2023
 
