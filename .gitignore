@@ -184,3 +184,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+/2023/03 AutomateBoringStuffs/Mar_28_to_31_url_shortner/shortener.db
