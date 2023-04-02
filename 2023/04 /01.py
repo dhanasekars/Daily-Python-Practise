@@ -31,4 +31,5 @@ for char in text:
 result = str.maketrans(public_key, private_key)
 print(text.translate(result))
 
-# so the answer is replace map with ocr in the url
+# so the answer is replacing map with ocr in the url
+# http://www.pythonchallenge.com/pc/def/ocr.html
