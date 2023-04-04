@@ -14,7 +14,7 @@ with open('03_data.txt', 'r') as file:
 pattern = r"[^A-Z]+[A-Z]{3}([a-z])[A-Z]{3}[^A-Z]+"
 
 matches = re.findall(pattern, text)
-code_word = ""
+print(f"matches are {matches}")
 print("".join(matches))
 
 # linkedlist
