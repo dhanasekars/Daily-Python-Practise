@@ -15,11 +15,11 @@ from requests import get
 url = 'http://www.pythonchallenge.com/pc/def/banner.p'
 
 
-my_beer = pickle.load(urlopen(url))
+r = pickle.load(urlopen(url))
 
-print(my_beer)
+print(r)
 
-for line in my_beer:
+for line in r:
     print("".join([k * v for k, v in line]))
 
 # Solution
