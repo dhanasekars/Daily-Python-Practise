@@ -7,7 +7,7 @@ from PIL import Image
 im = Image.open("wire.png")
 delta = [(1, 0), (0, 1), (-1, 0), (0, -1)]
 result = Image.new('RGB', (100, 100))
-x,y,p = -1, 0, 0
+x, y, p = -1, 0, 0
 d = 200
 while d/2 > 0:
     for v in delta:
