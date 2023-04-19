@@ -70,4 +70,8 @@ Every day check in should be a usable/ workable incremental function.
 
 [Apr 2023](https://github.com/dhanasekars/Daily-Python-Practise/tree/main/2023/04%20)
 
-http://www.pythonchallenge.com/ For the crazy ones  :-) 
+http://www.pythonchallenge.com/ For the crazy ones  :-)
+
+## May 2023
+
+Ask ChatGPT for a python package everyday and write some quick code reading only official documentation.
