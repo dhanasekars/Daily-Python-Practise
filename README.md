@@ -68,14 +68,17 @@ Every day check in should be a usable/ workable incremental function.
 
 ## April 2023
 ### Skipped days
-1. April 25
+1. April 25 
+2. April 29 
+3. April 30
 
 [Apr 2023](https://github.com/dhanasekars/Daily-Python-Practise/tree/main/2023/04%20)
 
+`230 days of check in` 
 
 
 http://www.pythonchallenge.com/ For the crazy ones  :-)
 
 ## May 2023
 
-Ask ChatGPT for a python package everyday and write some quick code reading only official documentation.
+Ask ChatGPT for a python package every day and write some quick code reading only official documentation.
