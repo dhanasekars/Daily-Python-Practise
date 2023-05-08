@@ -80,5 +80,6 @@ Every day check in should be a usable/ workable incremental function.
 http://www.pythonchallenge.com/ For the crazy ones  :-)
 
 ## May 2023
-
+#### Skipped days
+1. May 7
 Ask ChatGPT for a python package every day and write some quick code reading only official documentation.
