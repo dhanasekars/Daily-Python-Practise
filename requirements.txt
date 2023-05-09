@@ -75,3 +75,4 @@ Pillow~=9.5.0
 pycurl~=7.45.2
 chardet~=5.1.0
 prettytable~=3.7.0
+googlefinance~=0.7
