@@ -17,3 +17,9 @@ while models:
 
 completion = openai.Completion.create(model="ada", prompt="Hello world")
 print(completion.choices[0].text)
+
+
+audio_file = open("New Recording 3.mp3", 'rb')
+transcript = openai.Audio.translate("whisper-1", audio_file)
+
+print(transcript)
