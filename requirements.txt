@@ -76,3 +76,6 @@ pycurl~=7.45.2
 chardet~=5.1.0
 prettytable~=3.7.0
 googlefinance~=0.7
+pydub~=0.25.1
+openai~=0.27.6
+langchain~=0.0.166
