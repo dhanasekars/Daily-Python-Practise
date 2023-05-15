@@ -57,7 +57,7 @@ https://python.dunderdata.com/user/dhanasekars/tree
 `203 days of check in` 
 
 
-## Mar 2023 - Automate the boring stuff [ 31 days]
+## Mar 2023 - Automate the boring stuff [ 31 days ]
 [Mar 2023](https://github.com/dhanasekars/Daily-Python-Practise/tree/main/2023/03%20AutomateBoringStuffs) 
 
 Inspired from https://automatetheboringstuff.com
@@ -66,7 +66,7 @@ Every day check in should be a usable/ workable incremental function.
 
 `234 days of check in`
 
-## April 2023
+## April 2023 [ 27 days ]
 ### Skipped days
 1. April 25 
 2. April 29 
@@ -82,4 +82,5 @@ http://www.pythonchallenge.com/ For the crazy ones  :-)
 ## May 2023
 #### Skipped days
 1. May 7
+2. May 13
 Ask ChatGPT for a python package every day and write some quick code reading only official documentation.
