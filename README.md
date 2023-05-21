@@ -83,4 +83,5 @@ http://www.pythonchallenge.com/ For the crazy ones  :-)
 #### Skipped days
 1. May 7
 2. May 13
+3. May 20
 Ask ChatGPT for a python package every day and write some quick code reading only official documentation.
