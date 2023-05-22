@@ -18,17 +18,20 @@ try:
 except tweepy.TweepyException as e:
     print("Error during authentication:", e)
 
-text = "Hello, Twitter! This is 275 day of #Pythoncoding. This is from tweepy python package." \
-       "Git Repo  https://github.com/dhanasekars/Daily-Python-Practise"
+# text = "Hello, Twitter! This is 275 day of #Pythoncoding. This is from tweepy python package." \
+#        "Git Repo  https://github.com/dhanasekars/Daily-Python-Practise"
+#
+# try:
+#     api.update_status(text)
+#     print("OK")
+# except tweepy.TweepyException as e:
+#     print("Error posting tweet:", e)
+#
+# try:
+#     print(api.get_user())
+# except tweepy.TweepyException as e:
+#     print("Error getting user details", e)
 
-try:
-    api.update_status(text)
-    print("OK")
-except tweepy.TweepyException as e:
-    print("Error posting tweet:", e)
-
-try:
-    print(api.get_user())
-except tweepy.TweepyException as e:
-    print("Error getting user details", e)
-
+setting_details = api.get_settings()
+print(setting_details)
+print(api.get_profile_banner())
