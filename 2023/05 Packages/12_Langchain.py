@@ -13,6 +13,6 @@ llm = OpenAI(openai_api_key=Open_AI.key)
 # print(llm(text))
 
 prompt = PromptTemplate(input_variables=["product"],
-                        template="What would be a good company name for a company that {product}")
+                        template="What would be a good company name for a company that produce {product}")
 chain = LLMChain(llm=llm, prompt=prompt)
-print(LLMChain(llm=llm, prompt=prompt).run("coffee"))
+print(LLMChain(llm=llm, prompt=prompt).run("whisky"))

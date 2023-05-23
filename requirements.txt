@@ -83,3 +83,4 @@ pycert~=1.0.4
 pygame~=2.4.0
 elasticsearch~=8.7.0
 pytube~=15.0.0
+Faker~=18.9.0

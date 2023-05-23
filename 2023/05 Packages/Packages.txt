@@ -7,3 +7,6 @@ hashlib: This module provides functions for generating hash values for bytes obj
 io: This module provides classes for working with binary data streams, including BytesIO which provides an in-memory stream of bytes.
 socket: This module provides low-level network programming functionality, including sending and receiving bytes data over network sockets.
 These are just a few examples of the many packages and modules available in Python for working with bytes. The specific package or module you choose will depend on your specific use case and the requirements of your project.
+
+
+https://towardsdatascience.com/6-cool-python-libraries-that-i-came-across-recently-72e05dadd295
