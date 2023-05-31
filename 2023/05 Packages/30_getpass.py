@@ -7,7 +7,6 @@ import getpass
 
 
 print(getpass.getpass("Password:"))
-
 print(getpass.__all__)
 getpass.GetPassWarning("This is a warning message to print.")
 print(getpass.getuser())
