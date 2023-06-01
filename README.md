@@ -85,3 +85,10 @@ http://www.pythonchallenge.com/ For the crazy ones  :-)
 2. May 13
 3. May 20
 Ask ChatGPT for a python package every day and write some quick code reading only official documentation.
+
+'289 days of check in'
+
+## June 2023 - Calmcode Challenge
+#### Skipped days
+
+
