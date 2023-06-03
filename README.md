@@ -88,7 +88,7 @@ Ask ChatGPT for a python package every day and write some quick code reading onl
 
 '289 days of check in'
 
-## June 2023 - Calmcode Challenge
+## June 2023 - Mocking
 #### Skipped days
 
 
