@@ -91,4 +91,7 @@ Ask ChatGPT for a python package every day and write some quick code reading onl
 ## June 2023 - Mocking
 #### Skipped days
 
+1. June 4
+
+
 
