@@ -86,13 +86,10 @@ http://www.pythonchallenge.com/ For the crazy ones  :-)
 3. May 20
 Ask ChatGPT for a python package every day and write some quick code reading only official documentation.
 
-'289 days of check in'
+`289 days of check in`
 
 ## June 2023 - Mocking
 #### Skipped days
 
 1. June 4
 
-
-
-me
