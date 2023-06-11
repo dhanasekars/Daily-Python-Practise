@@ -1,0 +1,13 @@
+https://calmcode.io/pytest-tricks/flaky-tests.html
+https://calmcode.io/pytest-tricks/xfail.html
+
+Also, check this
+https://realpython.com/coding-font/
+
+
+
+1. Use a decorator when all the code in your test function body uses a mock.
+2. Use a context manager when some code in your test function uses a mock and 
+other code references the actual function.
+3. Use a patcher when you need to explicitly start and stop mocking a function across multiple tests 
+(e.g. the setUp() and tearDown() functions in a test class).
