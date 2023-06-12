@@ -10,6 +10,7 @@ BASE_URL = 'http://jsonplaceholder.typicode.com'
 
 TODOS_URL = urljoin(BASE_URL, 'todos')
 
+
 # print(TODOS_URL)
 
 def get_todos():
@@ -19,3 +20,11 @@ def get_todos():
     else:
         return None
 
+
+def get_uncompleted_todos():
+    response = get_todos()
+    if response is None:
+        return []
+    else:
+        todos = response.json()
+        return [todo for todo in todos if todo.get('completed') is False]
