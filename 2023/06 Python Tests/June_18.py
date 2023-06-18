@@ -19,11 +19,18 @@ else:
 
 count = 0
 if os.path.exists(folder_path_2) and os.path.isdir(folder_path_2):
-    for root, dirs, files in os.walk(folder_path_2) :
+    for root, dirs, files in os.walk(folder_path_2):
         for file in files:
             if file.endswith('.md'):
                 count += 1
     print(f"Total md files in the given path including sub folders {folder_path_2} is {count}")
 
-
-
+count_1 = 0
+if os.path.exists(folder_path_2) and os.path.isdir(folder_path_2):
+    for root, dirs, files in os.walk(folder_path_2):
+        for directory in dirs:
+            # print(directory.title())
+            md_files = glob.glob(folder_path_2 + directory + '/*.md')
+            # print(len(md_files))
+            count_1 += len(md_files)
+    print(f"Total md files in the given path including sub folders {folder_path_2} is {count_1}")
