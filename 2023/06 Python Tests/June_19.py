@@ -3,14 +3,8 @@ Created by: DS
 Created at: 2023-06-19 10:45:57
 
 This script is to fetch explore parsing markdown files
-
-
 """
 
-""" 
-Created on : 18/06/23 7:19 am
-@author : ds  
-"""
 
 import glob
 import os
