@@ -10,6 +10,7 @@ after having an active postgresql server running.
 
 A cloud Postgres was setup in a DBaaS (elephantSQL) and a connection was established on June 22, 2023
 
+
 """
 
 import psycopg2
