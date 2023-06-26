@@ -92,5 +92,6 @@ Ask ChatGPT for a python package every day and write some quick code reading onl
 #### Skipped days
 
 1. June 4
+2. June 24
 
 
