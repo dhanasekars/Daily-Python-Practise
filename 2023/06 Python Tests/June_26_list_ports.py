@@ -11,11 +11,12 @@ for process in processes:
     try:
         print(process.info)
         connections = process.info['connections']
-        if connections is not None:
+        if connections:
             for conn in connections:
                 if conn.status == "LISTEN":
-                    print(conn)
+                    # print(conn)
                     print(f"Process: {process.info['name']} | Port : {conn.laddr.port} ")
     except (psutil.AccessDenied, psutil.NoSuchProcess):
         pass
+
 
