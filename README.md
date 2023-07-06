@@ -95,3 +95,12 @@ Ask ChatGPT for a python package every day and write some quick code reading onl
 2. June 24
 
 `317 days of check in`
+
+## July 2023
+#### Skipped days
+1. July 1
+2. July 2
+3. July 3
+4. July 4
+5. July 5
+
