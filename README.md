@@ -105,3 +105,5 @@ Ask ChatGPT for a python package every day and write some quick code reading onl
 5. July 5
 6. July 9
 7. July 15 - 24
+
+`332 days of check in`
