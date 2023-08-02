@@ -1,5 +1,5 @@
 """ 
-Created on : 03/04/23 10:08 am
+Created on : 03/04/23 10:08 graphQL am
 @author : ds  
 """
 # http://www.pythonchallenge.com/pc/def/equality.html

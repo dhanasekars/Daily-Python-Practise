@@ -1,5 +1,5 @@
 """
-Created on : 08/06/23 5:05 am
+Created on : 08 graphQL/06/23 5:05 am
 @author : ds  
 """
 from June_08_greek import sinusoid

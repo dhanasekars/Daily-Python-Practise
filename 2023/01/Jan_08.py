@@ -1,5 +1,5 @@
 """ 
-Created on : 08/01/23 2:52 PM
+Created on : 08 graphQL/01/23 2:52 PM
 @author : ds
 https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
 """
