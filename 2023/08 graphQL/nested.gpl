@@ -1,0 +1,98 @@
+query Posts {
+    posts {
+        id
+        title
+        body
+        published
+        author {
+            id
+            name
+            email
+            age
+            posts {
+                id
+                title
+                body
+                published
+                author {
+                    id
+                    name
+                    email
+                    age
+                    posts {
+                        id
+                        title
+                        body
+                        published
+                        author {
+                            id
+                            name
+                            email
+                            age
+                            posts {
+                                id
+                                title
+                                body
+                                published
+                                author {
+                                    id
+                                    name
+                                    email
+                                    age
+                                    posts {
+                                        id
+                                        title
+                                        body
+                                        published
+                                        author {
+                                            id
+                                            name
+                                            email
+                                            age
+                                            posts {
+                                                id
+                                                title
+                                                body
+                                                published
+                                                author {
+                                                    id
+                                                    name
+                                                    email
+                                                    age
+                                                    posts {
+                                                        id
+                                                        title
+                                                        body
+                                                        published
+                                                        author {
+                                                            id
+                                                            name
+                                                            email
+                                                            age
+                                                            posts {
+                                                                id
+                                                                title
+                                                                body
+                                                                published
+                                                                author {
+                                                                    id
+                                                                    name
+                                                                    email
+                                                                    age
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

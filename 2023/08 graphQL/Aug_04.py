@@ -1,10 +1,15 @@
 """ 
-Created on : 03/08/23 8:46 am
+Created on : 04/08/23 4:46 am
 @author : ds  
 """
 from me import Operations
+import nested
+from Aug_01 import setup
 
-op = Operations.query.me
+query_me = Operations.query.me
+query_nested = nested.Operations.query.posts
 
+# print(query_nested)
 
-print(op)
+data = setup.endpoint(query_nested)
+print(data)
