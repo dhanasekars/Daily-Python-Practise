@@ -107,3 +107,12 @@ Ask ChatGPT for a python package every day and write some quick code reading onl
 7. July 15 - 24
 
 `332 days of check in`
+
+## Aug 2023
+
+GraphQL and 77 Python advanced Programming exercises
+
+#### Skipped Days
+1. Aug 6
+2. Aug 7
+
